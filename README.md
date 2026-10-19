@@ -65,3 +65,13 @@ Drugi poklon je slagalica 3x3 sa slikom `images/stepin_vajat.jpg`.
 Klik na dva dela menja njihova mesta; cilj je vratiti svih 9 delova na pravo mesto.
 Posle slagalice sastavljena slika ostaje vidljiva uz rezultat, Nova runda i Pocetna strana, bez automatskog prozora.
 YouTube se vise ne koristi. FFmpeg je koriscen samo za izdvajanje zvuka i nije potreban za pokretanje ili deploy.
+
+## Provera telefona
+
+Chrome provera prolazi na sirinama 320, 375, 390, 768 i 1280 px.
+Provereni su: odsustvo horizontalnog prelivanja, svih 5 memory parova,
+prelaz na slagalicu, resavanje svih 9 delova, nova runda i povratak na CLICK HERE.
+Memory na telefonu koristi dve kolone, slagalica tri. Dugmad imaju najmanje 48 px visine,
+a crveno dugme za drugi poklon najmanje 78 px. Provera je uradjena u emulaciji Chrome-a;
+fizicki iPhone/Android nisu testirani.
+# STEPA
